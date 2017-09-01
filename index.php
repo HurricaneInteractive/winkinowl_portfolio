@@ -2,6 +2,7 @@
     session_start();
     $key = sha1(microtime());
     $_SESSION['csrf'] = $key;
+    require('config.php');
 ?>
 
 <!DOCTYPE html>
@@ -186,7 +187,7 @@
                 <input type="text" name="email" placeholder="Email" />
                 <input type="text" name="service" placeholder="Service needed" />
                 <textarea name="message" id="message" cols="30" rows="2" placeholder="Message"></textarea>
-                <div class="g-recaptcha" data-sitekey="6Lfp4C4UAAAAAMiEibqbDLwU9vud0mEWdPfjLOF1"></div>
+                <div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
                 <input type="submit" value="Send">
             </form>
         </section>

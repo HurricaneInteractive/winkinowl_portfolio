@@ -1,6 +1,7 @@
 <?php
 session_start();
-$secret = '6Lfp4C4UAAAAAL7PWotQjs2vxqRfMSlOeaZeLMma';
+require('config.php');
+$secret = SECRET_KEY;
 
 function has_header_injection($str){
     return preg_match( "/[\r\n]/", $str );
@@ -28,9 +29,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
     if (!isset($sessionCsrf) || $sessionCsrf !== $csrf)
     {
-        throw new RuntimeException('CSRF Attack');
+        // throw new RuntimeException('CSRF Attack');
         array_push($errors, 'Are you doing the right thing? Refresh the page and try again');
-        echo json_encode($errors);
+        showErrors($errors);
         die();
     }
     else {
