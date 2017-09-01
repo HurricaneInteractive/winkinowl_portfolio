@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="118 0 42 42">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Instagram);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Instagram">
+      <rect x="118" width="42" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="Instagram" class="cls-1">
+    <rect class="cls-2" x="118" width="42" height="42"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(-157.947 -24.947)">
+      <path id="XMLID_17_" d="M28.084,0H11.916A11.93,11.93,0,0,0,0,11.916V28.084A11.93,11.93,0,0,0,11.916,40H28.084A11.93,11.93,0,0,0,40,28.084V11.916A11.93,11.93,0,0,0,28.084,0Zm7.892,28.084a7.892,7.892,0,0,1-7.892,7.892H11.916a7.892,7.892,0,0,1-7.892-7.892V11.916a7.892,7.892,0,0,1,7.892-7.892H28.084a7.892,7.892,0,0,1,7.892,7.892V28.084Z" transform="translate(276.947 25.947)"/>
+      <path id="XMLID_81_" d="M143.345,133a10.345,10.345,0,1,0,10.345,10.345A10.357,10.357,0,0,0,143.345,133Zm0,16.667a6.321,6.321,0,1,1,6.321-6.321A6.321,6.321,0,0,1,143.345,149.667Z" transform="translate(153.602 -97.398)"/>
+      <circle id="XMLID_83_" cx="2.479" cy="2.479" r="2.479" transform="translate(304.833 33.201)"/>
+    </g>
+  </g>
+</svg>
