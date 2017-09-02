@@ -35,6 +35,8 @@
     </head>
 
     <body id="#top">
+        <?php include_once('analytics.php'); ?>
+
         <div class="flashmessages"></div>
         <header>
             <h1 class="logo">
