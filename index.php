@@ -13,6 +13,7 @@
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
 
         <title>Winking Owl</title>
+        <meta name="description" content="Winking Owl is a independent digital agency offering web services to help clients improve their web presence">
 
         <meta property="og:url" content="https://www.winkingowl.digital/">
         <meta property="og:title" content="Winking Owl">
