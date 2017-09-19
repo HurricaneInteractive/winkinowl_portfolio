@@ -424,6 +424,10 @@ header {
                     min-height: 215px;
                     overflow: hidden;
                     border: 1px solid #eee;
+                    transition: border-color 250ms ease-in-out;
+                }
+                .lightbox:hover .image {
+                    border-color: $highlight;
                 }
                 h4 {
                     margin-bottom: 10px;

@@ -469,6 +469,11 @@ nav ul li.active a, nav ul li:hover a {
     min-height: 215px;
     overflow: hidden;
     border: 1px solid #eee;
+    transition: border-color 250ms ease-in-out;
+}
+
+.portfolio .portfolio-section ul li .lightbox:hover .image {
+    border-color: #2292FF;
 }
 
 .portfolio .portfolio-section ul li h4 {
