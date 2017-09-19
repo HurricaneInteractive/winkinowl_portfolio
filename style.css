@@ -481,7 +481,7 @@ nav ul li.active a, nav ul li:hover a {
     margin-top: 0;
 }
 
-.portfolio .portfolio-section ul li:not(.social) a {
+.portfolio .portfolio-section ul li:not(.social) a:not(.lightbox) {
     display: inline-block;
     padding: 12px 15px;
     border-radius: 5px;
@@ -493,7 +493,7 @@ nav ul li.active a, nav ul li:hover a {
     transition: background-color 250ms ease-in-out;
 }
 
-.portfolio .portfolio-section ul li:not(.social) a:hover {
+.portfolio .portfolio-section ul li:not(.social) a:not(.lightbox):hover {
     background-color: #0985ff;
 }
 

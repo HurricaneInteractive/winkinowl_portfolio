@@ -26,6 +26,7 @@
 
         <meta name="Keywords" content="Canberra web design, digital agency, web design, canberra website, canberra digital agency, small business solutions, website services" />
 
+        <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.min.css" type="text/css" rel="stylesheet" />
         <link href="css/normalize.css" media="all" rel="stylesheet" type="text/css" />
         <link href="style.css" media="all" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Halant:400,500" rel="stylesheet">
@@ -106,25 +107,31 @@
                 <h4>Recent</h4>
                 <ul>
                     <li>
-                        <div class="image">
-                            <img src="img/seacliff.jpg" alt="Seacliff House website screenshot">
-                        </div>
+                        <a class="lightbox" href="#" data-featherlight="img/seacliff.jpg">
+                            <div class="image">
+                                <img src="img/seacliff.jpg" alt="Seacliff House website screenshot">
+                            </div>
+                        </a>
                         <h4>Seacliff House</h4>
                         <p>Seacliff is a custom built WordPress website and has many features that small businesses can benefit from.</p>
                         <a href="http://seacliff.hurricane-interactive.me/" rel="noopener" target="_blank">View Site</a>
                     </li>
                     <li>
-                        <div class="image">
-                            <img src="img/infosite.jpg" alt="Informational website screenshot">
-                        </div>
+                        <a class="lightbox" href="#" data-featherlight="img/infosite.jpg">
+                            <div class="image">
+                                <img src="img/infosite.jpg" alt="Informational website screenshot">
+                            </div>
+                        </a>
                         <h4>Self Harm Informational website</h4>
                         <p>This was a university project and shows the number of deaths from self harm between 2006 and 2012</p>
                         <a href="http://infosite.hurricane-interactive.me/" rel="noopener" target="_blank">View Site</a>
                     </li>
                     <li>
-                        <div class="image">
-                            <img src="img/datavis.jpg" alt="Datavisualisation website screenshot">
-                        </div>
+                        <a class="lightbox" href="#" data-featherlight="img/datavis.jpg">
+                            <div class="image">
+                                <img src="img/datavis.jpg" alt="Datavisualisation website screenshot">
+                            </div>
+                        </a>
                         <h4>Data visualisation</h4>
                         <p>Utilising Chartjs to create a interactive and customisable graph.</p>
                         <a href="http://datavis.hurricane-interactive.me/" rel="noopener" target="_blank">View Site</a>
@@ -135,25 +142,31 @@
                 <h4>In Progress</h4>
                 <ul>
                     <li>
-                        <div class="image">
-                            <img src="img/choose_layout@2x.png" alt="Choose layout screenshot">
-                        </div>
+                        <a class="lightbox" href="#" data-featherlight="img/choose_layout@2x.png">   
+                            <div class="image">
+                                <img src="img/choose_layout@2x.png" alt="Choose layout screenshot">
+                            </div>
+                        </a>
                         <h4>CV Bot</h4>
                         <p>Generate a beautifully designed CV/Resume from a users input. (Design Prototype on Github)</p>
                         <a href="https://github.com/HurricaneInteractive/cv-generator" rel="noopener" target="_blank">Github</a>
                     </li>
                     <li>
-                        <div class="image">
-                            <img src="img/timesheets@2x.png" alt="Timesheet app timesheets view">
-                        </div>
+                        <a class="lightbox" href="#" data-featherlight="img/timesheets@2x.png">
+                            <div class="image">
+                                <img src="img/timesheets@2x.png" alt="Timesheet app timesheets view">
+                            </div>
+                        </a>
                         <h4>Timesheet Management</h4>
                         <p>A webapp to manage your timesheets and process on different projects.</p>
                         <a href="https://xd.adobe.com/view/19a84c40-f1d8-4475-8ac5-67ff081ff1ed/" rel="noopener" target="_blank">Prototype</a>
                     </li>
                     <li>
-                        <div class="image">
-                            <img src="img/builtin.jpg" alt="Builtin.io submission page">
-                        </div>
+                        <a class="lightbox" href="#" data-featherlight="img/builtin.jpg">
+                            <div class="image">
+                                <img src="img/builtin.jpg" alt="Builtin.io submission page">
+                            </div>
+                        </a>
                         <h4>Builtin.io</h4>
                         <p>A showcase of different projects and websites focusing on the languages used to build them.</p>
                         <a href="https://builtin.io" rel="noopener" target="_blank">View Site</a>
@@ -196,6 +209,7 @@
         </section>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="js/main.js"></script>
         <script>
             $ = jQuery.noConflict(), $(document).ready(function() {

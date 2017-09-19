@@ -434,7 +434,7 @@ header {
                     margin-top: 0;
                 }
                 &:not(.social) {
-                    a {
+                    a:not(.lightbox) {
                         display: inline-block;
                         padding: 12px 15px;
                         border-radius: 5px;
