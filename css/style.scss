@@ -425,6 +425,9 @@ header {
                     overflow: hidden;
                     border: 1px solid #eee;
                     transition: border-color 250ms ease-in-out;
+                    img {
+                        display: block;
+                    }
                 }
                 .lightbox:hover .image {
                     border-color: $highlight;

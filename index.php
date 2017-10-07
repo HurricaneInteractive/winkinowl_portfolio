@@ -152,14 +152,14 @@
                         <a href="https://github.com/HurricaneInteractive/cv-generator" rel="noopener" target="_blank">Github</a>
                     </li>
                     <li>
-                        <a class="lightbox" href="#" data-featherlight="img/timesheets@2x.png">
+                        <a class="lightbox" href="#" data-featherlight="img/BarColours@2x.png">
                             <div class="image">
-                                <img src="img/timesheets@2x.png" alt="Timesheet app timesheets view">
+                                <img src="img/BarColours@2x.png" alt="Bar colours logo">
                             </div>
                         </a>
-                        <h4>Timesheet Management</h4>
-                        <p>A webapp to manage your timesheets and process on different projects.</p>
-                        <a href="https://xd.adobe.com/view/19a84c40-f1d8-4475-8ac5-67ff081ff1ed/" rel="noopener" target="_blank">Prototype</a>
+                        <h4>Bar Colours</h4>
+                        <p>A website for choosing a colour palette, built with ReactJS and Google's Firebase.</p>
+                        <a href="http://lol.winkingowl.digital/" rel="noopener" target="_blank">Prototype</a>
                     </li>
                     <li>
                         <a class="lightbox" href="#" data-featherlight="img/builtin.jpg">

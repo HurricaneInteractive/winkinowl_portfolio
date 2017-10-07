@@ -472,6 +472,10 @@ nav ul li.active a, nav ul li:hover a {
     transition: border-color 250ms ease-in-out;
 }
 
+.portfolio .portfolio-section ul li .image img {
+    display: block;
+}
+
 .portfolio .portfolio-section ul li .lightbox:hover .image {
     border-color: #2292FF;
 }
