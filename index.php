@@ -162,14 +162,14 @@
                         <a href="http://lol.winkingowl.digital/" rel="noopener" target="_blank">Prototype</a>
                     </li>
                     <li>
-                        <a class="lightbox" href="#" data-featherlight="img/builtin.jpg">
+                        <a class="lightbox" href="#" data-featherlight="img/builtin_showcase.png">
                             <div class="image">
-                                <img src="img/builtin.jpg" alt="Builtin.io submission page">
+                                <img src="img/builtin_showcase.png" alt="Builtin.io submission page">
                             </div>
                         </a>
                         <h4>Builtin.io</h4>
-                        <p>A showcase of different projects and websites focusing on the languages used to build them.</p>
-                        <a href="https://builtin.io" rel="noopener" target="_blank">View Site</a>
+                        <p>A collection of React Components to be used to create quick Minimum Viable Products.</p>
+                        <a href="https://builtin.herokuapp.com/" rel="noopener" target="_blank">View Site</a>
                     </li>
                 </ul>
             </div>
